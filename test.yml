@@ -1,0 +1,6 @@
+---
+- hosts: test
+  remote_user: root
+  tasks:
+  - name: test debug
+    debug; msg='this is a test'
